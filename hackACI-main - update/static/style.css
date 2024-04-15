@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
 
-
-.glow {
+.glow{
     text-align: center;
     animation: glow 2s ease-in-out infinite alternate;
   }
@@ -672,9 +673,4 @@ button:hover span{
   .footer-col{
     width: 100%;
 }
-}
-
-
-html {
-  scroll-behavior: smooth;
 }
