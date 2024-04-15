@@ -282,8 +282,7 @@ span{
     width: 0;
     border-radius: 25px;
     position: absolute;
-    left: 0;
-    bottom: 0;
+
     z-index: -1;
     transition: 0.5s
 }
@@ -571,8 +570,8 @@ button:hover span{
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid black;
-  right:-15px;
+  border-left: 15px solid white;
+  right:-13px;
 
 }
 
@@ -585,7 +584,7 @@ button:hover span{
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-right: 15px solid #fff;
-  left:-15px;
+  left:-13px;
 
 }
 
