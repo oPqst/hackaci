@@ -349,7 +349,7 @@ button:hover span{
     position: relative;
     padding: 60px;
     color: white;
-    background: linear-gradient(45deg, #ff6b6b, #56ab2f, #2f80ed);
+    background: rgb(6, 56, 100);
     animation: gradientAnimation 1s ease infinite;
     font-size: 18px;
     line-height: 32.5px;
