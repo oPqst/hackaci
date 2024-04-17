@@ -777,50 +777,6 @@ button:hover span{
 }
 
 
-
-
-
-
-
-
-
-.containerF{
-	max-width: 1170px;
-	margin:auto;
-}
-
-.row h1{
-    font-size: clamp(15px, 4vw + 0.4rem, 30px);
-    color: transparent;
-    background-image: linear-gradient(to left, #87dfff, #3498db, #9b59b6, #8fc1ff);
-    background-clip: text;
-    animation: colorSwitch 8s linear infinite, fadeInAnimation ease 1s;
-    -webkit-background-size: 500%;
-    background-size: 500%;
-    z-index: 9;
-}
-
-
-.footer{
-	background-color: #294b78;
-    padding: 80px 0;
-}
-
-
-/*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
-
-
 .footer{
 	background-color: #294b78;
     padding: 80px 0;
@@ -844,6 +800,10 @@ button:hover span{
 html {
   scroll-behavior: smooth;
 }
+
+
+
+
 
 .footer {
   position: relative;
